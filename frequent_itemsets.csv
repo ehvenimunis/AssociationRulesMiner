@@ -1,0 +1,50 @@
+support,itemsets
+0.28583256801062096,frozenset({'2023'})
+0.7877430990097597,frozenset({'Battery Electric Vehicle BEV'})
+0.3332270605421816,frozenset({'Clean Alternative Fuel Vehicle Eligible'})
+0.5645892715238091,frozenset({'Eligibility unknown as battery range has not been researched'})
+0.5097001679744565,frozenset({'King'})
+0.20953504860790576,frozenset({'MODEL Y'})
+0.21225690099024036,frozenset({'Plug-in Hybrid Electric Vehicle PHEV'})
+0.4347873671788381,frozenset({'TESLA'})
+0.9979395767805055,frozenset({'WA'})
+0.24916369658007814,"frozenset({'Battery Electric Vehicle BEV', '2023'})"
+0.24916369658007814,"frozenset({'Eligibility unknown as battery range has not been researched', '2023'})"
+0.28532816879291556,"frozenset({'WA', '2023'})"
+0.22311575962046337,"frozenset({'Clean Alternative Fuel Vehicle Eligible', 'Battery Electric Vehicle BEV'})"
+0.5645892715238091,"frozenset({'Eligibility unknown as battery range has not been researched', 'Battery Electric Vehicle BEV'})"
+0.41285075969184065,"frozenset({'King', 'Battery Electric Vehicle BEV'})"
+0.20953504860790576,"frozenset({'MODEL Y', 'Battery Electric Vehicle BEV'})"
+0.4347873671788381,"frozenset({'TESLA', 'Battery Electric Vehicle BEV'})"
+0.7862679692221307,"frozenset({'Battery Electric Vehicle BEV', 'WA'})"
+0.33249425413155304,"frozenset({'Clean Alternative Fuel Vehicle Eligible', 'WA'})"
+0.2993323848090183,"frozenset({'Eligibility unknown as battery range has not been researched', 'King'})"
+0.31514958291894873,"frozenset({'TESLA', 'Eligibility unknown as battery range has not been researched'})"
+0.5635424052229111,"frozenset({'Eligibility unknown as battery range has not been researched', 'WA'})"
+0.2384428339622462,"frozenset({'TESLA', 'King'})"
+0.5097001679744565,"frozenset({'King', 'WA'})"
+0.20953504860790576,"frozenset({'MODEL Y', 'TESLA'})"
+0.20907823422205937,"frozenset({'MODEL Y', 'WA'})"
+0.2116716075583747,"frozenset({'Plug-in Hybrid Electric Vehicle PHEV', 'WA'})"
+0.4337738102602414,"frozenset({'TESLA', 'WA'})"
+0.24916369658007814,"frozenset({'Eligibility unknown as battery range has not been researched', 'Battery Electric Vehicle BEV', '2023'})"
+0.24873543309334717,"frozenset({'WA', 'Battery Electric Vehicle BEV', '2023'})"
+0.24873543309334717,"frozenset({'Eligibility unknown as battery range has not been researched', 'WA', '2023'})"
+0.2226874961337324,"frozenset({'Clean Alternative Fuel Vehicle Eligible', 'Battery Electric Vehicle BEV', 'WA'})"
+0.2993323848090183,"frozenset({'King', 'Eligibility unknown as battery range has not been researched', 'Battery Electric Vehicle BEV'})"
+0.31514958291894873,"frozenset({'TESLA', 'Eligibility unknown as battery range has not been researched', 'Battery Electric Vehicle BEV'})"
+0.5635424052229111,"frozenset({'Eligibility unknown as battery range has not been researched', 'Battery Electric Vehicle BEV', 'WA'})"
+0.2384428339622462,"frozenset({'TESLA', 'King', 'Battery Electric Vehicle BEV'})"
+0.41285075969184065,"frozenset({'King', 'Battery Electric Vehicle BEV', 'WA'})"
+0.20953504860790576,"frozenset({'MODEL Y', 'TESLA', 'Battery Electric Vehicle BEV'})"
+0.20907823422205937,"frozenset({'MODEL Y', 'Battery Electric Vehicle BEV', 'WA'})"
+0.4337738102602414,"frozenset({'TESLA', 'Battery Electric Vehicle BEV', 'WA'})"
+0.2993323848090183,"frozenset({'Eligibility unknown as battery range has not been researched', 'King', 'WA'})"
+0.314473878306551,"frozenset({'TESLA', 'Eligibility unknown as battery range has not been researched', 'WA'})"
+0.2384428339622462,"frozenset({'TESLA', 'King', 'WA'})"
+0.20907823422205937,"frozenset({'MODEL Y', 'TESLA', 'WA'})"
+0.24873543309334717,"frozenset({'Eligibility unknown as battery range has not been researched', 'WA', 'Battery Electric Vehicle BEV', '2023'})"
+0.2993323848090183,"frozenset({'King', 'Eligibility unknown as battery range has not been researched', 'Battery Electric Vehicle BEV', 'WA'})"
+0.314473878306551,"frozenset({'TESLA', 'Eligibility unknown as battery range has not been researched', 'Battery Electric Vehicle BEV', 'WA'})"
+0.2384428339622462,"frozenset({'TESLA', 'King', 'Battery Electric Vehicle BEV', 'WA'})"
+0.20907823422205937,"frozenset({'MODEL Y', 'TESLA', 'Battery Electric Vehicle BEV', 'WA'})"
