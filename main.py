@@ -34,9 +34,9 @@ if frequent_itemsets.empty:
 else:
     print(f"Frequent itemsets for minimum support {min_support}:")
     print(frequent_itemsets)
-    # Sonuçları CSV'ye kaydet
-    frequent_itemsets.to_csv("frequent_itemsets.csv", index=False)
-    print("Frequent itemsets saved to 'frequent_itemsets.csv'.")
+    # Sonuçları Excel'e kaydet
+    frequent_itemsets.to_excel("frequent_itemsets.xlsx", index=False)
+    print("Frequent itemsets saved to 'frequent_itemsets.xlsx'.")
 
 # 6. Birliktelik Kurallarını Hesaplama
 if not frequent_itemsets.empty:
@@ -50,11 +50,15 @@ if not frequent_itemsets.empty:
     if rules.empty:
         print("No association rules generated.")
     else:
-        # Kuralları güven değerine göre sırala
-        rules = rules.sort_values(by="confidence", ascending=False)
-        print("Top Association Rules:")
+        # frozenset içeriğini stringe çevir
+        rules['antecedents'] = rules['antecedents'].apply(lambda x: ', '.join(list(x)))
+        rules['consequents'] = rules['consequents'].apply(lambda x: ', '.join(list(x)))
+        
+        # Kuralları support değerine göre sırala (yüksekten düşüğe)
+        rules = rules.sort_values(by="support", ascending=False)
+        print("Top Association Rules (sorted by support):")
         print(rules[['antecedents', 'consequents', 'support', 'confidence', 'lift']])
         
-        # Sonuçları CSV'ye kaydet
-        rules.to_csv("association_rules.csv", index=False)
-        print("Association rules saved to 'association_rules.csv'.")
+        # Sonuçları Excel'e kaydet
+        rules.to_excel("association_rules.xlsx", index=False)
+        print("Association rules saved to 'association_rules.xlsx'.")
