@@ -7,7 +7,7 @@ dataset = pd.read_csv("Updated_Electric_Vehicle_Data_VIN.csv")
 
 # 2. İlgili Sütunları Seçme ve Birleştirme
 selected_columns = [
-    'County', 'City', 'State', 'Model Year', 'Make', 
+    'County', 'City', 'Model Year', 'Make', 
     'Model', 'Electric Vehicle Type', 'Clean Alternative Fuel Vehicle CAFV Eligibility'
 ]
 basket = dataset[selected_columns]
@@ -26,7 +26,7 @@ te_ary = te.fit_transform(transactions)
 df = pd.DataFrame(te_ary, columns=te.columns_)
 
 # 5. Apriori Algoritması ile Sık Geçen Öğe Gruplarını Bulma
-min_support = 0.2  # Minimum destek değeri
+min_support = 0.1  # Minimum destek değeri
 frequent_itemsets = apriori(df, min_support=min_support, use_colnames=True)
 
 if frequent_itemsets.empty:
